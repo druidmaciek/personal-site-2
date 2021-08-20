@@ -1,0 +1,61 @@
+<nav x-data="nav()">
+
+    <div class="absolute z-50 bg-gray-50 h-screen w-screen" x-show="isOpen"
+        x-transition:enter="transition ease-in-out duration-300"
+        x-transition:enter-start="opacity-0 transform scale-x-0 -translate-x-1/2"
+        x-transition:enter-end="opacity-100 transform scale-x-100 translate-x-0"
+        x-transition:leave="transition ease-in-out duration-300"
+        x-transition:leave-start="opacity-100 transform scale-x-100 translate-x-0"
+        x-transition:leave-end="opacity-0 transform scale-x-0 -translate-x-1/2">
+
+        <div class="container">
+            <div class="flex justify-between items-center">
+                <button @click="isOpen = !isOpen" class="">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                      </svg>
+                </button>
+                <a href="/" class="block text-transparent text-5xl font-black">MJ</a>
+                
+            </div>
+
+            <div class="mt-12 grid grid-cols-1 gap-6 text-center text-gray-900">
+                <a class="link-nav {%if title == 'Home' %}underline{%endif %}" href="/">Home</a>
+                <a class="hidden link-nav {%if title == 'About' %}underline{%endif %}" href="/about">About</a>
+                <a class="link-nav {%if title == 'Articles' %}underline{%endif %}" href="/articles">Articles</a>
+                <a class="link-nav {%if title == 'Projects' %}underline{%endif %}" href="/projects">Work</a>
+                <a class="btn-primary" href="/contact">Hire Me</a>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="container">
+        <div class="mt-4 flex justify-between items-center">
+            <button @click="isOpen = !isOpen" class="block md:hidden">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+            </button>
+            <a href="/" class="block text-black text-5xl font-black">MJ</a>
+
+            <div class="hidden md:flex md:justify-start md:items-center ">
+                <a class="mr-6 link-nav {%if title == 'Home' %}border-gray-900{%endif %}" href="/">Home</a>
+                <a class="hidden mr-6 link-nav {%if title == 'About' %}border-gray-900{%endif %}" href="/about">About</a>
+                <a class="mr-6 link-nav {%if title == 'Articles' %}border-gray-900{%endif %}" href="/articles">Articles</a>
+                <a class="mr-12 link-nav {%if title == 'Projects' %}border-gray-900{%endif %}" href="/projects">Work</a>
+                <a class="btn-primary" href="/contact">Hire Me</a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<script>
+    function nav() {
+        return {
+            isOpen: false
+        }
+    }
+</script>

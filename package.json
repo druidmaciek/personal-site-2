@@ -1,0 +1,28 @@
+{
+  "name": "PERSONAL_WEBSITE",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx @11ty/eleventy --serve --port=8081 & postcss styles/tailwind.css --o _tmp/style.css --watch",
+    "build": "ELEVENTY_PRODUCTION=true npx @11ty/eleventy && NODE_ENV=production postcss styles/tailwind.css --o _site/style.css && cleancss _site/style.css -o _site/style.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.12.1",
+    "alpinejs": "^3.2.3",
+    "autoprefixer": "^10.3.1",
+    "clean-css-cli": "^4.3.0",
+    "html-minifier": "^4.0.0",
+    "postcss-cli": "^8.3.1",
+    "postcss-import": "^14.0.0",
+    "tailwindcss": "^2.2.7"
+  },
+  "dependencies": {
+    "@11ty/eleventy-plugin-syntaxhighlight": "^3.1.2",
+    "@tailwindcss/typography": "github:tailwindcss/typography"
+  }
+}

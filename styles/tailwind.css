@@ -1,0 +1,47 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap"); */
+@import url("/assets/fonts/strawford.css");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components {
+  .link-nav {
+    @apply text-black uppercase font-light border-b-2 border-transparent hover:border-gray-900 hover:opacity-80;
+  }
+
+  .btn-primary {
+    @apply px-4 py-2 bg-gray-900 text-gray-50 uppercase rounded-full hover:opacity-80;
+  }
+
+  .headline {
+    @apply text-4xl font-bold;
+  }
+
+  .card {
+    @apply bg-white rounded-xl shadow-sm bg-opacity-60 backdrop-filter backdrop-blur-lg ;
+  }
+
+  .container { 
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  .label {
+    @apply block text-sm font-medium text-gray-700;
+  }
+
+}
+
+@layer utilities {
+  .animation-delay-0 {
+    animation-delay: 0s;
+  }
+  .animation-delay-1000 {
+    animation-delay: 1s;
+  }
+
+  .animation-delay-2000 {
+    animation-delay: 2s;
+  }
+  .animation-delay-4000 {
+    animation-delay: 4s;
+  }
+}

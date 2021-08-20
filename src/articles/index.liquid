@@ -1,0 +1,51 @@
+---
+layout: layouts/wrapper.liquid
+
+title: Articles
+description: Articles and tutorial by Maciej Janowski Freelance full-stack developer
+---
+
+<div class="container">
+    {% include 'components/header', text: "Articles", sub: 'Read my articles and tutorials on web development and freelancinng' %}
+
+    <div class="mt-32 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-12">
+
+        {% for article in collections.articles reversed %}
+
+            <div x-data="card()" class="relative">
+                <div :class="{ [getBg()]: true}"
+                    class="absolute top-0 left-0 w-80 h-80 rounded-full mix-blend-multiply filter blur-xl opacity-75  animate-blob">
+                </div>
+                
+                <div class="card">
+                    <img class="opacity-80 rounded-t-xl h-48 w-full object-cover"
+                        src="{{ article.data.image }}"
+                        alt="">
+                    <div class="p-5 max-w-md">
+                        <div class="">
+                            <h3 class="link-nav font-semibold"><a class="" href="{{ article.url }}">{{ article.data.title }}</a></h3>
+                            <span class="text-xs">{{ article.data.date | date: '%Y-%m-%d' }}</span>   
+                        </div>
+                        
+                        <p class="mt-2 font-light">{{ article.data.description }}</p>
+                    </div>
+
+                </div>
+            </div>
+
+        {% endfor %}
+
+    </div>
+
+</div>
+
+<script>
+    const COLORS = [ 'bg-pink-300', 'bg-rose-300', 'bg-blue-300', 'bg-purple-300', 'bg-yellow-300', 'bg-indigo-300']
+    function card() {
+        return {
+            getBg() {
+                return COLORS[Math.floor(Math.random() * COLORS.length)]
+            }
+        }
+    }
+</script>

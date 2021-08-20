@@ -1,0 +1,15 @@
+---
+layout: layouts/wrapper.liquid
+
+title: Contact Me
+description: Maciej Janowski Freelance full-stack developer contact me to start a project
+---
+
+<div class="container">
+    {% include 'components/header', text: title, sub: 'I’d love to work with you. Fill out the form below to tell me more or send me an email at <a class="underline font-semibold">maciej@janowski.dev</a>' %}
+    <div class="mt-12">
+        <div class="max-w-3xl mx-auto">
+            {% include 'components/contact_form' %}
+        </div>
+    </div>
+</div>

@@ -4,6 +4,7 @@ description: How to start out freelancing on Freelancer.com or other marketplace
 date: 2020-07-12
 author: Maciej Janowski
 image: /assets/img/articles/howtofreelance.png
+og_image: /assets/img/articles/howtofreelance.png
 layout: layouts/article
 tags: articles
 ---

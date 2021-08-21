@@ -1,5 +1,6 @@
 ---
 title: Maciej Janowski
+og_image: /assets/img/og_default.png
 ---
 <!DOCTYPE html>
 <html lang="en">
@@ -14,6 +15,10 @@ title: Maciej Janowski
   {% endif %}
   <meta http-equiv="x-ua-compatible" content="ie=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, viewport-fit=cover" />
+
+  <meta property="og:title" content="{{ title }}" />
+  <meta property="og:description" content="{{description}}"/>
+<meta property="og:image" content="{{ og_image }}" />
 
 
   <link rel="stylesheet" href="/style.css?v={% version %}" />

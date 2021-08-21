@@ -4,6 +4,7 @@ description: Learn how to improve your Search engine optimisation for your Djang
 date: 2020-07-04
 author: Maciej Janowski
 image: /assets/img/articles/djangoseo.png
+og_image: /assets/img/articles/djangoseo.png
 layout: layouts/article
 tags: articles
 ---

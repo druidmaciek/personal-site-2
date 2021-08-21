@@ -4,6 +4,7 @@ description: Create a To-Do List with Django, Django Rest Framework, Alpine.js, 
 date: 2020-09-21
 author: Maciej Janowski
 image: /assets/img/articles/alpinetodo.png
+og_image: /assets/img/articles/alpinetodo.png
 layout: layouts/article
 tags: articles
 ---

@@ -4,7 +4,7 @@ description: Televisor needed a web application to help them streamline their bu
 industry: Advertising
 location: Warsaw, PL
 client: Televisor sp. z o.o.
-image: https://cdn.buttercms.com/ouWREmGvTea2UdWHy2HX
+image: /assets/img/projects/tvlinker.png
 project_url: https://crowdengage.com/
 stack: ["Django", "Python", "JavaScript", "Alpine.js", "TailwindCSS", "TailwindUI"]
 tags: projects
@@ -13,13 +13,13 @@ order: 2
 review: true
 review_text: "Maciej developed custom web application for us that allowed us to streamline a cumbersome processes and save hundreds of hours of our employees. He designed and developed the application based on our specifications and quickly adapted to any changes in requirements. I highly recommend him for your next project."
 reviewer: "Karol Zakrzewski"
-reviewer_img: "https://www.janowski.dev/img/kz.jpg"
+reviewer_img: "/assets/img/testimonials/kz.png"
 ---
 Televisor needed a web application to help them streamline their business process, regarding adding and obtaining visual references for their projects.
 
 ### What is Televisor?
 
-<span>Televisor is a leading Postproduction & Animation Studio in Poland, and they help to translate diverse visions and narratives into technologically advanced, unique and unforgettable images.</span><span></span>
+Televisor is a leading Postproduction & Animation Studio in Poland, and they help to translate diverse visions and narratives into technologically advanced, unique and unforgettable images.
 
 ### The Problem
 
@@ -31,7 +31,7 @@ The previous solution involved manually saving screenshots, on a shared network 
 
 To make saving references faster for employees, I created a Chrome browser extensions, that allows users to screen capture a portion of the browser screen, and upload the capture along with various tags, and link of current website to better describe the reference to Televisor's reference database.
 
-### Finding References <span style="font-weight: 400;"></span>
+### Finding References
 
 To streamline the process of finding the references already added by the chrome extensions I designed and developed a web application that allowed users so search the references easily and filter them based on keywords and tags. Furthermore I created many features to make the process even easier:
 

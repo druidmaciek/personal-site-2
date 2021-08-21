@@ -5,7 +5,7 @@ description: Jakub needed, a minimalistic and aesthetically pleasing website, th
 location: Warsaw, PL
 client: Jakub Kępka
 project_url: https://jakubkepka.com/
-image: https://www.janowski.dev/img/ke.png
+image: /assets/img/projects/jk.png
 stack: ["JavaScript", "Svelte", "SvelteKit", "TailwindCSS", "Storyblok CMS", 'JAMStack', "Vercel"]
 tags: projects
 layout: layouts/project
@@ -13,7 +13,7 @@ order: 3
 review: true
 review_text: "As someone who works in the arts, I’ve seen a lot of really good and polished websites, but my favourite is definitely the one Maciej made for me. My whole vision was fulfilled perfectly. I highly recommend. I needed an aesthetically pleasing website to promote my art and I got a better result than I imagined."
 reviewer: "Jakub Kępka"
-reviewer_img: "https://www.janowski.dev/img/jakub_kepka.jpg"
+reviewer_img: "/assets/img/testimonials/jakub_kepka.png"
 ---
 Jakub needed, a minimalistic and aesthetically pleasing website, that he could easliy add new content to (his painting, and photoshoots).
 ### Who is Jakub Kępka?

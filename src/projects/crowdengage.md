@@ -5,7 +5,7 @@ industry: SaaS
 location: Ely, UK
 client: crowdEngage
 project_url: https://crowdengage.com/
-image: https://cdn.buttercms.com/Hzzyszr3SNqtMlZ0Yj73
+image: /assets/img/projects/crowdengage.png
 stack: ["Django", "Python", "JavaScript", "Alpine.js", "TailwindCSS", "TailwindUI", "Docker"]
 tags: projects
 layout: layouts/project
@@ -13,7 +13,7 @@ order: 1
 review: true
 review_text: "It’s a pleasure to work with Maciej. He’s very responsive and knows both Django and Tailwind inside out. He always makes sure that the work is exactly what is required and comes up with good product suggestions along the way. Highly recommended!"
 reviewer: "Hugh Topping"
-reviewer_img: "https://janowski.dev/img/ht.png"
+reviewer_img: "/assets/img/testimonials/ht.png"
 ---
 CrowdEngage asked me to redesign and rebuild their SAAS application dashboard, and add a couple of new features. 
 

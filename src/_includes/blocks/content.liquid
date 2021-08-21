@@ -1,26 +1,30 @@
 <div class="md:flex md:justify-between md:items-center">
     <div class="">
         <div class="prose md:prose-lg">
-            <h2>Are you looking for a freelnace full stack developer?</h2>
+            <h1>Fast websites aren't just about speed</h1>
+            <p>Website performance is fundamental to your users experience, Google ranking and much more. By ignoring performance, you're wasting a lot of potential.</p>
             <ul>
-                <li>You need a freelance full stack developer to work alongside a designer to plan the best approach
-                    for
-                    your project.</li>
-                <li>Design, UX and UI work for your website is already finished and you need an experienced full
-                    stack
-                    developer to build the theme.</li>
-                <li>You're looking to launch an eCommerce project on Shopify, and need a professional to code it.
-                </li>
-                <li>You want to develop a JAMStack website using headless content management system, via the REST
-                    API,
-                    for a detached front end using Svelte, SvelteKit or a static site generator like 11ty.</li>
-                <li>You require a Shopify app or custom 3rd party integration to be developed for your Shopify
-                    store.
-                </li>
+                <li>40% of users abandon a website that takes over 3 seconds to load</li>
+                <li>46% of users will never revisit a poorly performing website</li>
+                <li>64% of shoppers will choose to shop somewhere else if they are frustrated with a slow website</li>
+                <li>53% of mobile users abandon a site that takes over 3 seconds to load</li>
             </ul>
+            
             <p>If one of these situations describes your needs, you're in the right place. You can <a
                     href="/contact">hire me</a>
                 to help today.</p>
+        </div>
+        <div class="mt-12">
+            <h2 class="headline">Everything you need for a perfect website</h2>
+            <div class="mt-12 max-w-lg grid grid-cols-2 gap-6">
+                
+                {% include 'components/service_card', service: 'Website Review', desc: 'I make sure your website is performing its best by thoroughly reviewing it before making any changes.' %}
+                {% include 'components/service_card', service: 'Business Strategy', desc: 'We discuss what you are trying to achieve, and place goals on your website planning how to achieve that.' %}
+                {% include 'components/service_card', service: 'User Experience Design', desc: 'I design your website to be as easy to use as possible while guiding users towards the end goal.' %}
+                {% include 'components/service_card', service: 'Tailored Development', desc: 'I build with your goals in mind, whether you want a simple flexible website, a custom storefront or a SaaS product.' %}
+                
+
+            </div>
         </div>
 
     </div>
@@ -34,6 +38,17 @@
         product
         suggestions along the way. Highly recommended!', name: 'Hugh Topping', src:
         '/assets/img/testimonials/ht.png' %}
+
+        <div class="mt-24 md:mt-64">
+            {% include 'components/review_card', text: 'Maciej has provided us with custom software development in
+            support of our business. He was
+            quick,
+            diligent and very professional. I will definitely utilize his services in future endeavors.
+            He
+            is an
+            expert Python developer who is a pleasure to work with.', name: 'Doron Grinstein', src:
+            '/assets/img/testimonials/dg.png' %}
+        </div>
 
         <div class="mt-24 md:mt-64">
             {% include 'components/review_card', text: 'Maciej has provided us with custom software development in

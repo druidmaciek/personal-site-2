@@ -3,7 +3,7 @@ title: "SEO For Django: 5 Methods To Improve SEO"
 description: Learn how to improve your Search engine optimisation for your Django website using this 5 easy methods
 date: 2020-07-04
 author: Maciej Janowski
-image: https://cdn.buttercms.com/ouqGpalwQ02IAu4yAG7f
+image: /assets/img/articles/alpinetodo.png
 layout: layouts/article
 tags: articles
 ---

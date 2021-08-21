@@ -3,7 +3,7 @@ title: Simple To-Do List With Django, Alpine.Js, Tailwidcss, And Axios
 description: Create a To-Do List with Django, Django Rest Framework, Alpine.js, TailwindCSS and Axios Js
 date: 2020-09-21
 author: Maciej Janowski
-image: https://cdn.buttercms.com/zjKFrQRkSw2EjMmB3Jev
+image: /assets/img/articles/alpinetodo.png
 layout: layouts/article
 tags: articles
 ---

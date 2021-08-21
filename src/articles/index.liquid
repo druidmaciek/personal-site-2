@@ -18,9 +18,11 @@ description: Articles and tutorial by Maciej Janowski Freelance full-stack devel
                 </div>
                 
                 <div class="card">
-                    <img class="opacity-80 rounded-t-xl h-48 w-full object-cover"
+                    <img class="rounded-t-xl h-48 w-full object-cover"
                         src="{{ article.data.image }}"
-                        alt="">
+                        width="1200"
+                        height="630"
+                        alt="{{ article.data.title }}">
                     <div class="p-5 max-w-md">
                         <div class="">
                             <h3 class="link-nav font-semibold"><a class="" href="{{ article.url }}">{{ article.data.title }}</a></h3>

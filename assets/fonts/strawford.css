@@ -8,6 +8,7 @@
          url('/assets/fonts/strawford-thin-webfont.ttf') format('truetype');
     font-weight: 100;
     font-style: normal;
+    font-display: swap;
 
 }
 
@@ -23,6 +24,7 @@
          url('/assets/fonts/strawford-regular-webfont.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
+    font-display: swap;
 
 }
 
@@ -38,7 +40,7 @@
          url('/assets/fonts/strawford-medium-webfont.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
-
+    font-display: swap;
 }
 
 
@@ -53,7 +55,7 @@
          url('/assets/fonts/strawford-light-webfont.ttf') format('truetype');
     font-weight: 300;
     font-style: normal;
-
+    font-display: swap;
 }
 
 
@@ -68,6 +70,7 @@
          url('/assets/fonts/strawford-extralight-webfont.ttf') format('truetype');
     font-weight: 200;
     font-style: normal;
+    font-display: swap;
 
 }
 
@@ -83,6 +86,7 @@
          url('/assets/fonts/strawford-bold-webfont.ttf') format('truetype');
     font-weight: 700;
     font-style: normal;
+    font-display: swap;
 
 }
 
@@ -98,6 +102,7 @@
          url('/assets/fonts/strawford-black-webfont.ttf') format('truetype');
     font-weight: 900;
     font-style: normal;
+    font-display: swap;
 
 }
 

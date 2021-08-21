@@ -3,7 +3,7 @@ title: Making Django App Publicly Accessible With Ngrok
 description: Learn how to make Django App Publicly Accessible With Ngrok following this short article
 date: 2020-06-28
 author: Maciej Janowski
-image: /assets/img/articles/alpinetodo.png
+image: /assets/img/articles/ngrok.png
 layout: layouts/article
 tags: articles
 ---

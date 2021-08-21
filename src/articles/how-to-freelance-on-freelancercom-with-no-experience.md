@@ -3,7 +3,7 @@ title: How To Freelance on Freelancer.com with no experience
 description: How to start out freelancing on Freelancer.com or other marketplaces, as a Python developer
 date: 2020-07-12
 author: Maciej Janowski
-image: /assets/img/articles/alpinetodo.png
+image: /assets/img/articles/howtofreelance.png
 layout: layouts/article
 tags: articles
 ---

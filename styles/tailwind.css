@@ -5,11 +5,11 @@
 @tailwind utilities;
 @layer components {
   .link-nav {
-    @apply text-black uppercase font-light border-b-2 border-transparent hover:border-gray-900 hover:opacity-80;
+    @apply text-gray-900 uppercase font-light border-b-2 border-transparent hover:border-gray-900 hover:opacity-80;
   }
 
   .btn-primary {
-    @apply px-4 py-2 bg-gray-900 text-gray-50 uppercase rounded-full hover:opacity-80;
+    @apply px-4 py-2 bg-gray-900 text-gray-50 font-semibold uppercase rounded-full hover:opacity-80;
   }
 
   .headline {

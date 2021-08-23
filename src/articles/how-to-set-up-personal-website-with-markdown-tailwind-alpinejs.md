@@ -3,8 +3,8 @@ title: How to set up a personal website with 11ty, Markdown, TailwindCSS, and Al
 description: How to set up a personal website with 11ty, Markdown, TailwindCSS, and Alpine.js
 date: 2021-08-23
 author: Maciej Janowski
-image: /assets/img/articles/howtofreelance.png
-og_image: /assets/img/articles/howtofreelance.png
+image: /assets/img/articles/eleventy.png
+og_image: /assets/img/articles/eleventy.png
 layout: layouts/article
 tags: articles
 ---

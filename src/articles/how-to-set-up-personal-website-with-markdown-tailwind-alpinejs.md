@@ -8,6 +8,7 @@ og_image: /assets/img/articles/eleventy.png
 layout: layouts/article
 tags: articles
 ---
+{% raw %}
 # How to set up a personal website with 11ty, Markdown, TailwindCSS, and Alpine.js
 
 So I rebuild my website for about 100th time.
@@ -319,6 +320,7 @@ title: Home Page
 description: This is our homepage
 layout: layouts/main
 ---
+
 {% include components/hero %}
 ```
 
@@ -578,7 +580,7 @@ You can do the same to list projects you worked on, but I will let you add it yo
 Firstly, let's upload our website to GitHub. 
 Create a new repo on GitHub, and then initialise git local and upload our files
 
-```cli
+```git
 git init
 git add . 
 git commit -m "first commit"
@@ -596,7 +598,8 @@ On the next screen leave everything on defaults, and press `Deploy`.
 You built and deployed your eleventy blog to netlify and should have your website available on address like [that](https://flamboyant-poitras-0033f8.netlify.app).
 The website will automaticly deploy when you push changes to github.
 
-Here is a ![link](https://github.com/druidmaciek/11ty-tailwind-alpine-blog) to GitHub repo of the finished project.
+Here is a [link](https://github.com/druidmaciek/11ty-tailwind-alpine-blog) to GitHub repo of the finished project.
 
 If you liked this guide, [follow me](https://twitter.com/MaciejJanowski) on twitter, to stay up to date with my latest content. 
 
+{% endraw %}

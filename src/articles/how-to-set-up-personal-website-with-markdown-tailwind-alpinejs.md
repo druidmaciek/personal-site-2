@@ -594,6 +594,7 @@ Select the one we just created.
 
 On the next screen leave everything on defaults, and press `Deploy`.
 You built and deployed your eleventy blog to netlify and should have your website available on address like [that](https://flamboyant-poitras-0033f8.netlify.app).
+The website will automaticly deploy when you push changes to github.
 
 Here is a ![link](https://github.com/druidmaciek/11ty-tailwind-alpine-blog) to GitHub repo of the finished project.
 

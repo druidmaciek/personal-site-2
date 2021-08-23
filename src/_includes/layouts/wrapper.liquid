@@ -1,5 +1,7 @@
 ---
 title: Maciej Janowski
+description: Maciej Janowski - Freelance Full Stack Developer Website available for hire
+og_image_alt: Maciej Janowski - Freelance Full Stack Developer Website
 og_image: /assets/img/og_default.png
 ---
 <!DOCTYPE html>
@@ -20,14 +22,21 @@ og_image: /assets/img/og_default.png
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, viewport-fit=cover" />
 
   <meta property="og:title" content="{{ title }}" />
-  <meta property="og:description" content="{{description}}"/>
-<meta property="og:image" content="{{ og_image }}" />
+  <meta property="og:description" content="{{description}}" />
+  <meta property="og:image" content="{{ og_image }}" />
+  <meta property="og:image:alt" content="{{ og_image_alt }}" />
+
+  <meta name="twitter:image" content="{{ og_image }}" />
+  <meta property="twitter:image:alt" content="{{ og_image_alt }}" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@MaciejJanowski" />
+
 
 
   <link rel="stylesheet" href="/style.css?v={% version %}" />
   <link rel="stylesheet" href="/assets/css/highlight.css" />
-  
-  
+
+
   <link rel="preload" href="https://plausible.io/js/plausible.js" as="script">
 
   <script defer data-domain="janowski.dev" src="https://plausible.io/js/plausible.js"></script>

@@ -7,6 +7,7 @@ image: /assets/img/articles/eleventy.png
 og_image: /assets/img/articles/eleventy.png
 layout: layouts/article
 tags: articles
+keywords: 11ty, eleventy, website development, web dev, web design, tailwindcss, tailwind, alpine.js, markdown, github, netlify
 ---
 {% raw %}
 # How to set up a personal website with 11ty, Markdown, TailwindCSS, and Alpine.js

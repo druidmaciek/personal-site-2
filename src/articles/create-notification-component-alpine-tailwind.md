@@ -10,8 +10,6 @@ tags: articles
 keywords: website development, web dev, web design, tailwindcss, tailwind, alpine.js, component design, components, notification
 ---
 
-# How to create Notification pop up component with Alpine.js and TailwindCSS
-
 I will show you how to create a notifications pop up component with Alpine.js and Tailwind so you can have a nice way to notify your users.
 
 Here is a simple starting page that we will use. It's just a title, input and button. When user writes something inside the input, and presses the button the notification will pop-up, then user will be able to dismiss it. 

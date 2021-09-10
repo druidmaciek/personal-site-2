@@ -10,7 +10,6 @@ tags: articles
 keywords: 11ty, eleventy, website development, web dev, web design, tailwindcss, tailwind, alpine.js, markdown, github, netlify
 ---
 {% raw %}
-# How to set up a personal website with 11ty, Markdown, TailwindCSS, and Alpine.js
 
 So I rebuild my website for about 100th time.
 I was testing out some new website stacks, and this is the one I particularly enjoy.

@@ -131,7 +131,7 @@ To finish let's add `@click` property to the dismiss button, to remove the item 
 Remove the old list we used to preview if items are being added to the array.
 Now test out are notifications pop up, by adding few items and dismissing them.
 
-![Notification List Screenshot](https://janowski.dev/assets/img/articles/screenshots/sc10.png)
+![Notification List Screenshot](https://janowski.dev/assets/img/articles/gifs/gif1.gif)
 
 If you liked this guide, [follow me](https://twitter.com/MaciejJanowski) on twitter, to stay up to date with my latest content. 
 

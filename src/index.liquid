@@ -9,6 +9,14 @@ description: Maciej Janowski Freelance full-stack developer
     {% include 'components/hero' %}
 </div>
 
+
+<div class="container mt-32 grid grid-cols-1 sm:grid-cols-2 gap-16">
+    {% assign testimonials = collections.testimonials | order %}
+        {% for testimonial in testimonials %}
+            {% include 'components/testimonial' %}
+        {% endfor %}
+</div>
+
 <div class="mt-32">
     <div class="">
         <div id="read" class="container">

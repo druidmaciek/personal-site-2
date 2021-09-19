@@ -40,12 +40,14 @@ module.exports = {
         sans: ['strawford', ...defaultTheme.fontFamily.sans],
       },
       colors: {
+        primary: colors.cyan,
         emerald: colors.emerald,
         brand: colors.emerald,
         gray: colors.blueGray,
         orange: colors.orange,
         rose: colors.rose,
-        fuchsia: colors.fuchsia
+        fuchsia: colors.fuchsia,
+        teal: colors.teal
       },
     },
   },

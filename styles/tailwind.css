@@ -17,8 +17,8 @@
   }
 
   .card {
-    @apply bg-white rounded-xl shadow-sm bg-opacity-60 backdrop-filter backdrop-blur-lg ;
-  }
+    @apply rounded-lg shadow-lg bg-clip-padding backdrop-filter backdrop-blur-xl bg-opacity-20;
+    }
 
   .container { 
     @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;

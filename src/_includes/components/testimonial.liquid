@@ -1,12 +1,13 @@
 <div class="p-4 bg-black rounded-lg shadow-lg bg-clip-padding backdrop-filter backdrop-blur-xl bg-opacity-20 text-gray-900 ">
     
     <div class="-mt-12 flex justify-center">
-        <img class="h-16 w-16 shadow ring-black ring-4 rounded-full" src="{{ testimonial.data.img }}" alt="{{ testimonial.data.reviewer }}'s Photo">
+        <img class="h-16 w-16 shadow ring-primary-500 ring-4 rounded-full" src="{{ testimonial.data.img }}" alt="{{ testimonial.data.reviewer }}'s Photo">
     </div>
+    <p class="mt-2 text-center font-semibold">{{ testimonial.data.reviewer }} {% if testimonial.data.client %}, {{ testimonial.data.client }}{% endif %}</p> 
 
-    <div class="mt-6">
+    <div class="mt-2">
         <p>{{ testimonial.data.content | safe }} </p>
-        <p class="font-semibold">{{ testimonial.data.reviewer }} {% if testimonial.data.client %}, {{ testimonial.data.client }}{% endif %}</p>
+    
     </div>
     
     

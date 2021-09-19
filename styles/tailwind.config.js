@@ -40,7 +40,7 @@ module.exports = {
         sans: ['strawford', ...defaultTheme.fontFamily.sans],
       },
       colors: {
-        primary: colors.cyan,
+        primary: colors.black,
         emerald: colors.emerald,
         brand: colors.emerald,
         gray: colors.blueGray,

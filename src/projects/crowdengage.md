@@ -5,7 +5,7 @@ industry: SaaS
 location: Ely, UK
 date: 2020-09-09
 client: crowdEngage
-project_url: crowdengage.com
+project_url: https://crowdengage.com
 image: /assets/img/projects/crowdengage.png
 stack: ["Django", "Python", "JavaScript", "Alpine.js", "TailwindCSS", "TailwindUI", "Docker"]
 tags: projects

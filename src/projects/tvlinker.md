@@ -6,7 +6,7 @@ location: Warsaw, PL
 date: 2019-08-08
 client: Televisor sp. z o.o.
 image: /assets/img/projects/tvlinker.png
-project_url: televisor.pl
+project_url: https://televisor.pl
 stack: ["Django", "Python", "JavaScript", "Alpine.js", "TailwindCSS", "TailwindUI"]
 tags: projects
 layout: layouts/project

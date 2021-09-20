@@ -4,20 +4,17 @@ layout: layouts/wrapper.liquid
 title: Articles
 description: Articles and tutorial by Maciej Janowski Freelance full-stack developer
 ---
-
+{% include 'components/header', text: "Articles", sub: 'Read my articles and tutorials on web development and freelancing' %}
 <div class="container">
-    {% include 'components/header', text: "Articles", sub: 'Read my articles and tutorials on web development and freelancinng' %}
+    
 
     <div class="mt-32 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
 
         {% for article in collections.articles reversed %}
 
-            <div x-data="card()" class="relative">
-                <div :class="{ [getBg()]: true}"
-                    class="absolute top-0 left-0 w-80 h-80 rounded-full mix-blend-multiply filter blur-xl opacity-75  animate-blob">
-                </div>
+            <div  class="relative">
                 
-                <div class="card">
+                <div class="card bg-gray-50">
                     <img class="rounded-t-xl h-48 w-full object-contain"
                         src="{{ article.data.image }}"
                         width="1200"
@@ -40,13 +37,3 @@ description: Articles and tutorial by Maciej Janowski Freelance full-stack devel
     </div>
 
 </div>
-
-<script>
-    function card() {
-        return {
-            getBg() {
-                return COLORS[Math.floor(Math.random() * COLORS.length)]
-            }
-        }
-    }
-</script>

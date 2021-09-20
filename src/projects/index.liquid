@@ -1,37 +1,36 @@
 ---
 layout: layouts/wrapper.liquid
-
+color: True
 title: Projects
 description: Articles and tutorial by Maciej Janowski Freelance full-stack developer
 ---
 
-<div class="container">
-    {% include 'components/header', text: "Projects", sub: 'Read case studies of some of the projects I worked on' %}
+{% include 'components/header', text: "Projects", sub: 'Read case studies of some of the projects I worked on' %}
 
+<div class="container">
     <div class="mt-12 md:mt-32 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-12">
 
         {% assign projects = collections.projects | order %}
         {% for project in projects %}
-            <div x-data="card()" class="relative">
-                <div :class="{ [getBg()]: true}"
-                    class="absolute top-0 left-0 w-80 h-80  rounded-full mix-blend-multiply filter blur-xl opacity-75  animate-blob">
-                </div>
-                
-                <div class="card">
-                    <img class="opacity-80 rounded-t-xl h-48 w-full object-cover"
-                        src="{{ project.data.image }}"
-                        alt="">
-                    <div class="p-5 max-w-md h-48">
-                        <div class="">
-                            <h3 class="link-nav font-semibold"><a class="" href="{{ project.url }}">{{ project.data.title }}</a></h3>
-                            <span class="text-xs">{{ project.data.date | date: '%Y-%m-%d' }}</span>   
-                        </div>
-                        
-                        <p class="mt-2 font-light">{{ project.data.description }}</p>
+        <div x-data="card()" class="relative">
+            <div :class="{ [getBg()]: true}"
+                class="absolute top-0 left-0 w-80 h-80  rounded-full mix-blend-multiply filter blur-xl opacity-75  animate-blob">
+            </div>
+
+            <div class="card">
+                <img class="opacity-80 rounded-t-xl h-48 w-full object-cover" src="{{ project.data.image }}" alt="">
+                <div class="p-5 max-w-md h-48">
+                    <div class="">
+                        <h3 class="link-nav font-semibold"><a class="" href="{{ project.url }}">{{ project.data.title
+                                }}</a></h3>
+                        <span class="text-xs">{{ project.data.date | date: '%Y-%m-%d' }}</span>
                     </div>
 
+                    <p class="mt-2 font-light">{{ project.data.description }}</p>
                 </div>
+
             </div>
+        </div>
 
         {% endfor %}
 
@@ -41,7 +40,7 @@ description: Articles and tutorial by Maciej Janowski Freelance full-stack devel
 
 
 <script>
-    const COLORS = [ 'bg-pink-300', 'bg-rose-300', 'bg-blue-300', 'bg-purple-300', 'bg-yellow-300', 'bg-indigo-300']
+    const COLORS = ['bg-pink-300', 'bg-rose-300', 'bg-blue-300', 'bg-purple-300', 'bg-yellow-300', 'bg-indigo-300']
     function card() {
         return {
             getBg() {

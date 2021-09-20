@@ -52,12 +52,9 @@ og_image: /assets/img/og_default.png
 <body class="bg-gray-50 text-gray-900">
 
 
-  {% include 'components/navbar' %}
-  <div class="" id="content">
-    {% block content %}
+  {% block content %}
     {{ content | safe }}
     {% endblock %}
-  </div>
   {% include 'components/footer' %}
 
 

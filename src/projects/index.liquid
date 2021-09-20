@@ -12,12 +12,8 @@ description: Articles and tutorial by Maciej Janowski Freelance full-stack devel
 
         {% assign projects = collections.projects | order %}
         {% for project in projects %}
-        <div x-data="card()" class="relative">
-            <div :class="{ [getBg()]: true}"
-                class="absolute top-0 left-0 w-80 h-80  rounded-full mix-blend-multiply filter blur-xl opacity-75  animate-blob">
-            </div>
-
-            <div class="card">
+        <div class="relative">
+            <div class="card border">
                 <img class="opacity-80 rounded-t-xl h-48 w-full object-cover" src="{{ project.data.image }}" alt="">
                 <div class="p-5 max-w-md h-48">
                     <div class="">
@@ -38,14 +34,3 @@ description: Articles and tutorial by Maciej Janowski Freelance full-stack devel
 
 </div>
 
-
-<script>
-    const COLORS = ['bg-pink-300', 'bg-rose-300', 'bg-blue-300', 'bg-purple-300', 'bg-yellow-300', 'bg-indigo-300']
-    function card() {
-        return {
-            getBg() {
-                return COLORS[Math.floor(Math.random() * COLORS.length)]
-            }
-        }
-    }
-</script>

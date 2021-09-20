@@ -5,7 +5,7 @@ description: Jakub needed, a minimalistic and aesthetically pleasing website, th
 location: Warsaw, PL
 date: 2020-09-09
 client: Jakub Kępka
-project_url: https://jakubkepka.com
+project_url: jakubkepka.com
 image: /assets/img/projects/jk.png
 stack: ["JavaScript", "Svelte", "SvelteKit", "TailwindCSS", "Storyblok CMS", 'JAMStack', "Vercel"]
 tags: projects

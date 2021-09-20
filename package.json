@@ -23,6 +23,7 @@
   },
   "dependencies": {
     "@11ty/eleventy-plugin-syntaxhighlight": "^3.1.2",
-    "@tailwindcss/typography": "github:tailwindcss/typography"
+    "@tailwindcss/typography": "github:tailwindcss/typography",
+    "smoothscroll-polyfill": "^0.4.4"
   }
 }

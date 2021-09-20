@@ -3,13 +3,14 @@ title: Jakub Kępka - Artist and Fashion Designer Portfolio
 industry: Fashion, Art
 description: Jakub needed, a minimalistic and aesthetically pleasing website, that he could easliy add new content to (his painting, and photoshoots).
 location: Warsaw, PL
+date: 2020-09-09
 client: Jakub Kępka
-project_url: https://jakubkepka.com/
+project_url: https://jakubkepka.com
 image: /assets/img/projects/jk.png
 stack: ["JavaScript", "Svelte", "SvelteKit", "TailwindCSS", "Storyblok CMS", 'JAMStack', "Vercel"]
 tags: projects
 layout: layouts/project
-order: 3
+order: 2
 review: true
 review_text: "As someone who works in the arts, I’ve seen a lot of really good and polished websites, but my favourite is definitely the one Maciej made for me. My whole vision was fulfilled perfectly. I highly recommend. I needed an aesthetically pleasing website to promote my art and I got a better result than I imagined."
 reviewer: "Jakub Kępka"

@@ -4,33 +4,27 @@ layout: layouts/wrapper.liquid
 title: Articles
 description: Articles and tutorial by Maciej Janowski Freelance full-stack developer
 ---
-{% include 'components/header', text: "Articles", sub: 'Read my articles and tutorials on web development and freelancing' %}
+{% include 'components/header', text: "Articles", sub: 'Read my articles and tutorials on web development and
+freelancing' %}
 <div class="container">
-    
+
 
     <div class="mt-32 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
 
         {% for article in collections.articles reversed %}
 
-            <div  class="relative">
-                
-                <div class="card border bg-gray-50">
-                    <img class="rounded-t-xl h-48 w-full object-contain"
-                        src="{{ article.data.image }}"
-                        width="1200"
-                        height="630"
-                        alt="{{ article.data.title }}">
-                    <div class="p-5 max-w-md">
-                        <div class="">
-                            <h3 class="link-nav font-semibold"><a class="" href="{{ article.url }}">{{ article.data.title }}</a></h3>
-                            <span class="text-xs">{{ article.data.date | date: '%Y-%m-%d' }}</span>   
-                        </div>
-                        
-                        <p class="mt-2 font-light">{{ article.data.description }}</p>
-                    </div>
-
+        <div class="card bg-gradient-to-r bg-gradient-to-bl from-pink-400 via-red-400 to-yellow-400">
+            <div class="p-4 h-52">
+                <div class="">
+                    <h3 class="link-nav font-semibold"><a class="" href="{{ article.url }}">{{ article.data.title
+                            }}</a></h3>
+                    <span class="text-xs">{{ article.data.date | date: '%Y-%m-%d' }}</span>
                 </div>
+
+                <p class="mt-2 font-light">{{ article.data.description }}</p>
             </div>
+        </div>
+
 
         {% endfor %}
 

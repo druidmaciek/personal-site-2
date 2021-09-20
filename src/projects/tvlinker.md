@@ -3,13 +3,14 @@ title: TvLinker - Custom Web Application & Chrome Extension
 description: Televisor needed a web application to help them streamline their business process, regarding adding and obtaining visual references for their projects.
 industry: Advertising
 location: Warsaw, PL
+date: 2019-08-08
 client: Televisor sp. z o.o.
 image: /assets/img/projects/tvlinker.png
-project_url: https://crowdengage.com/
+project_url: https://televisor.pl
 stack: ["Django", "Python", "JavaScript", "Alpine.js", "TailwindCSS", "TailwindUI"]
 tags: projects
 layout: layouts/project
-order: 2
+order: 3
 review: true
 review_text: "Maciej developed custom web application for us that allowed us to streamline a cumbersome processes and save hundreds of hours of our employees. He designed and developed the application based on our specifications and quickly adapted to any changes in requirements. I highly recommend him for your next project."
 reviewer: "Karol Zakrzewski"

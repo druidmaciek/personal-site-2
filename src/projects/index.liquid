@@ -12,19 +12,16 @@ description: Articles and tutorial by Maciej Janowski Freelance full-stack devel
 
         {% assign projects = collections.projects | order %}
         {% for project in projects %}
-        <div class="relative">
-            <div class="card border">
-                <img class="opacity-80 rounded-t-xl h-48 w-full object-cover" src="{{ project.data.image }}" alt="">
-                <div class="p-5 max-w-md h-48">
-                    <div class="">
-                        <h3 class="link-nav font-semibold"><a class="" href="{{ project.url }}">{{ project.data.title
-                                }}</a></h3>
-                        <span class="text-xs">{{ project.data.date | date: '%Y-%m-%d' }}</span>
-                    </div>
-
-                    <p class="mt-2 font-light">{{ project.data.description }}</p>
+        
+        <div class="card bg-gradient-to-r bg-gradient-to-bl from-pink-400 via-red-400 to-yellow-400">
+            <div class="p-4 h-52">
+                <div class="">
+                    <h3 class="link-nav font-semibold"><a class="" href="{{ project.url }}">{{ project.data.title
+                            }}</a></h3>
+                    <span class="text-xs">{{ project.data.date | date: '%Y' }}</span>
                 </div>
 
+                <p class="mt-2 font-light">{{ project.data.description }}</p>
             </div>
         </div>
 

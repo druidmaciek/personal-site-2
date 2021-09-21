@@ -333,17 +333,19 @@ Run the site `npm run start` and you should see our hero header
 Create a `navigation.liquid` file in the `_includes/components` directory
 
 ```html
-<div class="relative">
-    <div class="absolute inset-0">
-        <img class="w-full h-full object-cover"
-            src="https://images.unsplash.com/34/BA1yLjNnQCI1yisIZGEi_2013-07-16_1922_IMG_9873.jpg?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1502&q=80"
-            alt="">
-        <div class="absolute inset-0 bg-gray-400 mix-blend-multiply" aria-hidden="true"></div>
-    </div>
-    <div class="relative text-center py-24 px-4 sm:py-32 sm:px-6 lg:px-8">
-        <h1 class="text-5xl font-extrabold text-white sm:text-6xl lg:text-7xl">My Personal Website</h1>
-        <p class="mt-4 text-xl text-gray-50 max-w-3xl">Read my web development tutorials, and see projects I worked on.
-        </p>
+<div class="mt-6 flex justify-between items-center">
+    <a class="font-extrabold uppercase text-xl" href="/">Web Dev Blog</a>
+    <button @click="isOpen = !isOpen" class="block md:hidden p-1 rounded-lg bg-gray-900 bg-opacity-80 hover:bg-opacity-100 text-gray-200">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+            stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+    </button>
+    <div class="hidden md:flex md:justify-end md:items-center md:space-x-6">
+        <a class="font-semibold uppercase hover:opacity-80 hover:underline" href="/">Home</a>
+        <a class="font-semibold uppercase hover:opacity-80 hover:underline" href="/blog">Blog</a>
+        <a class="font-semibold uppercase hover:opacity-80 hover:underline" href="/about">About</a>
+        <a class="font-semibold uppercase hover:opacity-80 hover:underline" href="/work">Work</a>
     </div>
 </div>
 ```

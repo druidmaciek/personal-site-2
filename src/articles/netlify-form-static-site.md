@@ -62,7 +62,7 @@ We also want to redirect the user to a thank you page after submitting the form.
 
 Now let's upload it to Netlify, go to `https://netlify.com` login or register if you don't have an account. Go to `sites` tab and drag and drop the folder with our html files 
 
-![Netlify Site Upload](https://janowski.dev/assets/img/articles/gifs/netlify-ulpoad.gif)
+![Netlify Site Upload](https://janowski.dev/assets/img/articles/gifs/netlify-upload.gif)
 
 Now our site is available to the world, let's make the contact form work. Open `index.html` again, and edit the `form` tag by adding few attributes. 
 `name` - this value will show up in Netlify as the name of our form, it's useful if you have many forms on your website

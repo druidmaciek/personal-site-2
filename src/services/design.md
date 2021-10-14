@@ -1,9 +1,9 @@
 ---
-title: Web Design
+title: Design
 tags: services
 order: 2
 icon: <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z" />
           </svg>
-content: I will design your website to be as easy to use as possible while leading users towards the end goal.
+content: I will work with your team to build a website that will showcase your brand and help converting visitors to paying customers
 ---

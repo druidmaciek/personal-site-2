@@ -1,0 +1,22 @@
+---
+layout: layouts/wrapper.liquid
+
+title: Services
+description: I offer a wide array of services to help you grow your business online
+---
+
+
+
+{% include 'components/header', text: title, sub: 'Read about services I offer to help you grow your business' %}
+
+<div class="container">
+    <div class="container mt-32 grid grid-cols-1 sm:grid-cols-2 gap-16">
+        <!--  col-span-1 md:col-span-2  -->
+        {% assign services = collections.services | order %}
+        {% for service in services %}
+        {% include 'components/service_colored' %}
+        {% endfor %}
+    </div>
+
+</div>
+

@@ -10,20 +10,19 @@
 <div class="relative">
   
     <div class="card border-2 py-10 px-6 md:px-16">
-        <h2 class="hidden headline text-center">Contact Me</h2>
+        <h2 class="hidden headline text-center">Free Website Analysis Report</h2>
         <div class="flex justify-center hidden">
-            <p class="mt-2 text-center">I’d love to work with you. Fill out the form below to tell me more or send me an
-                email at <a class="font-semibold underline" href="">{{ page.email }}</a>
+            <p class="mt-2 text-center">
             </p>
         </div>
 
-        <form class="space-y-6" name="contactForm" action="/thanks" netlify>
+        <form class="space-y-6" name="websiteAnalysisForm" action="/thanks" netlify>
 
             <div class="mt-6">
-                <label class="label" for="name">Name</label>
-                <input name="name" required
+                <label class="label" for="url">Website URL</label>
+                <input name="url" required
                     class="w-full border border-300-gray px-3 py-2 rounded-lg shadow-sm focus:outline-none focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500"
-                    id="name" type="text" placeholder="Name">
+                    id="url" type="url" placeholder="webstie url">
             </div>
             <div>
                 <label class="label" for="email">Email</label>
@@ -32,7 +31,7 @@
                     id="email" type="email" placeholder="Email">
             </div>
             <div>
-                <label class="label" for="message">Tell me about your project</label>
+                <label class="label" for="message">Tell me about your website goals</label>
                 <textarea
                 name='message' required
                     class="w-full border border-300-gray px-3 py-2 rounded-lg shadow-sm focus:outline-none focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500"
@@ -41,7 +40,7 @@
             </div>
             <button type="submit"
                 class="w-full btn-primary">
-                Get a Quote Now
+                Get a Free Website Analysis Report
             </button>
 
         </form>

@@ -28,6 +28,10 @@
     @apply block text-sm font-medium text-gray-900;
   }
 
+  .brand-gradient {
+    @apply bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500;
+  }
+
 }
 
 @layer utilities {

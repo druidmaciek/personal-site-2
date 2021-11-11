@@ -5,7 +5,7 @@
 @tailwind utilities;
 @layer components {
   .link-nav {
-    @apply text-gray-900 uppercase font-light border-b-2 border-transparent hover:border-gray-900 hover:opacity-80;
+    @apply text-gray-900 uppercase font-light hover:underline hover:opacity-80;
   }
 
   .btn-primary {

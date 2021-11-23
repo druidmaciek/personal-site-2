@@ -8,7 +8,7 @@ og_image: /assets/img/articles/alpinetodo.png
 layout: layouts/article
 tags: articles
 ---
-
+{% raw %}
 ## Setting up Strapi
 
 Open up a terminal and type 
@@ -219,3 +219,4 @@ To deploy our front-end we can deploy it on service such as [Netlify](https://do
 Here is a [link](https://github.com/druidmaciek/eleventy_strapi_blog) to GitHub repo of the finished project.
 
 If you liked this guide, [follow me](https://twitter.com/MaciejJanowski) on twitter, to stay up to date with my latest content.
+{% endraw %}

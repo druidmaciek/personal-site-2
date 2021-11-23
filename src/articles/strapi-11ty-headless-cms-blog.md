@@ -13,7 +13,7 @@ tags: articles
 
 Open up a terminal and type 
 
-```npm
+```sh
 npx create-strapi-app backend --quickstart
 ```
 
@@ -21,7 +21,7 @@ this will create all the strapi files in the `backend` folder and run strapi ins
 
 If you want to run Strapi again after terminating the process, you can do it from the `backend` folder by typing
 
-```npm
+```sh
 npm run develop
 ```
 
@@ -83,7 +83,7 @@ Now let's set up eleventy, as a starting point let's use a simple 11ty + markdow
 In the main project directory create a new folder called `frontend`
 Clone the starting blog repository, and install required packages.
 
-```npm
+```sh
 cd frontend
 git clone https://github.com/druidmaciek/11ty-tailwind-alpine-blog .
 npm i
@@ -91,13 +91,13 @@ npm i
 
 Now install Axios so we can make requests to strapi api
 
-```npm
+```sh
 npm install axios
 ```
 
 Create a new folder called `_data` and inside create `articles.js` and `tags.js` files
 
-```npm
+```sh
 mkdir _data
 touch _data/article.js
 touch _data/tags.js

@@ -25,7 +25,7 @@ If you want to run Strapi again after terminating the process, you can do it fro
 npm run develop
 ```
 
-Now you have to create your first Strapi admin user, go to ![http://localhost:1337](http://localhost:1337) and press `Create the first administrator` and fill the form.
+Now you have to create your first Strapi admin user, go to [http://localhost:1337](http://localhost:1337) and press `Create the first administrator` and fill the form.
 
 ![Strapi Dashboard](https://janowski.dev/assets/img/articles/eleventy_strapi/strapi_1.png)
 

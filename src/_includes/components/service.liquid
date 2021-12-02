@@ -1,9 +1,22 @@
-<div class="p-4 bg-white rounded-lg shadow-lg bg-clip-padding backdrop-filter backdrop-blur-xl bg-opacity-20 text-gray-900 ">
+<div class="p-4 bg-black rounded-lg shadow-lg bg-clip-padding backdrop-filter backdrop-blur-xl bg-opacity-20 text-gray-900 ">
+    <div class="flex justify-start">
+        <div class="bg-gray-900 p-2 rounded-xl text-gray-50 mr-2">{{ service.data.icon | safe }}</div>
+        <h4 class="mt-2 text-2xl text-left text-gray-900 font-bold">{{ service.data.title }}</h4> 
+    </div>
+    
+    
+
+    <div class="mt-4 text-gray-100">
+        <p>{{ service.data.content | safe }} </p>
+    </div>
+</div>
+
+<div class="hidden p-4 bg-white rounded-lg shadow-lg bg-clip-padding backdrop-filter backdrop-blur-xl bg-opacity-20 text-gray-900 ">
     
     <div class="-mt-12 flex justify-center">
         <div class="bg-gray-900 p-2 rounded-xl text-gray-50">{{ service.data.icon | safe }}</div>
-        
     </div>
+
     <p class="mt-2 text-center font-semibold">{{ service.data.title }}</p> 
 
     <div class="mt-2">

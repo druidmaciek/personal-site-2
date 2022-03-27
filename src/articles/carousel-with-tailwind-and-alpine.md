@@ -21,7 +21,7 @@ In the `index.html` add what's below to your `<head>`
 <script src="https://unpkg.com/tailwindcss-jit-cdn"></script>
 ```
 
-For Tailwind we are using the ![jit compiler cdn](https://beyondco.de/blog/tailwind-jit-compiler-via-cdn) to keep it simple and keep the size small.
+For Tailwind we are using the [jit compiler cdn](https://beyondco.de/blog/tailwind-jit-compiler-via-cdn) to keep it simple and keep the size small.
 
 ```html
 <script src="https://unpkg.com/alpinejs" defer></script>
@@ -118,7 +118,7 @@ We need two variables:
 -  `selected` to show a current index of image list
 -  `images` array with the list of images we want to show in the carousel.
 
-I will use a couple of mountain landscape images from ![Unsplash](https://unsplash.com/s/photos/mountain-landscapes)
+I will use a couple of mountain landscape images from [Unsplash](https://unsplash.com/s/photos/mountain-landscapes)
 
 ```js
 const carousel = () => {
@@ -219,4 +219,4 @@ You could further improve the carousel component by:
 
 Or you can start using the carousel in your projects.
 
-Follow me on Twitter ![@MaciejJanowski](http://twitter.com/MaciejJanowski) to stay updated on my content.
+Follow me on Twitter [@MaciejJanowski](http://twitter.com/MaciejJanowski) to stay updated on my content.
